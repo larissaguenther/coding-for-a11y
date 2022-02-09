@@ -1,0 +1,31 @@
+body {
+    background-color: #EDF1F3;
+    font-family: Helvetica, sans-serif;
+    margin: 24px 32px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F2617A;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #F2617A;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+blockquote {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+}
