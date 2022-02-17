@@ -11,7 +11,9 @@ Non-semantic elements are for example `<div>` and `<span>` - they tell nothing a
 
 ## What is well structured HTML?
 
-An unstyled view of an HTML document approximates the way it would be read by a screen reader. You should check how your page looks like when disabling the styles: the structure should still be clear and easy to understand without styles. Therefore you should use semantic HTML elements in a logical and hierarchical way, for example use only one `<h1>` tag per page, and separate your content in logical sections, e.g. use the `<header>` tag for introductory content at the top of your page.
+An unstyled view of an HTML document approximates the way it would be read by a screen reader. You should check how your page looks like when disabling the styles: the structure should still be clear and easy to understand without styles. 
+
+Therefore you should use semantic HTML elements in a logical and hierarchical way, for example use only one `<h1>` tag per page, and separate your content in logical sections, e.g. use the `<header>` tag for introductory content at the top of your page.
 
 ## Useful Resources
 
