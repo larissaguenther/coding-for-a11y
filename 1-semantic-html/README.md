@@ -1,4 +1,4 @@
-# Semantic HTML
+# Use semantic, well-structured HTMl when possible
 
 ## What is semantic HTML?
 
@@ -9,10 +9,9 @@ Semantic elements are for example `<table>`, `<form>` or `<section>` - they all 
 
 Non-semantic elements are for example `<div>` and `<span>` - they tell nothing about their content.
 
-## How do I use semantic HTML while developing?
+## What is well structured HTML?
 
-- Use native semantic HTML elements rather than trying to create your own elements
-- When adding a new element to your UI think about what this element is supposed to do or contain, then search in the web if there is a native HTML element for that functionality
+An unstyled view of an HTML document approximates the way it would be read by a screen reader. You should check how your page looks like when disabling the styles: the structure should still be clear and easy to understand without styles. Therefore you should use semantic HTML elements in a logical and hierarchical way, for example use only one `<h1>` tag per page, and separate your content in logical sections, e.g. use the `<header>` tag for introductory content at the top of your page.
 
 ## Useful Resources
 
