@@ -1,2 +1,2 @@
 # coding-for-a11y
-Learn to code for accessibility with this repo
+Learn the basics of coding for accessibility with this repo
