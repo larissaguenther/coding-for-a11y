@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="./hide-decorative-content.css">
 </head>
 <body>
-    <h1>Accessible Images</h1>
-    <section class="background-image">
-        <h2>Background Image</h2>
+    <h1>Hidden decorative content</h1>
+    <section aria-labelledby="background-image" class="background-image">
+        <h2 id="background-image">Background Image</h2>
     </section>
-    <section>
-        <h2>Image with empty alt attribute</h2>
+    <section aria-labelledby="emptyalt">
+        <h2 id="emptyalt">Image with empty alt attribute</h2>
         <img src="./resources/swimming-pig.jpg" width="300" alt="">
     </section>
-    <section>
-        <h2>Aria hidden icon</h2>
+    <section aria-labelledby="ariahidden">
+        <h2 id="ariahidden">ARIA hidden icon</h2>
         <svg aria-hidden="true" width="17" height="17" xmlns="http://www.w3.org/2000/svg"><path d="m.967 14.217 5.8-5.906-5.765-5.89L3.094.26l5.783 5.888L14.66.26l2.092 2.162-5.766 5.889 5.801 5.906-2.092 2.162-5.818-5.924-5.818 5.924-2.092-2.162Z" fill="#000"/></svg>
     </section>
 </body>
