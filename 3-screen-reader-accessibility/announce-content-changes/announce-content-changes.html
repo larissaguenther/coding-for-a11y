@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function onClick() {
+        updateCart();
+      }
+      function updateCart() {
+        document.getElementById('cart').innerHTML = "Cart is full";
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="onClick()">Add to cart</button>
+    <div role="region" aria-live="polite" aria-label="Cart"><p id="cart">Cart is empty</p></div>
+  </body>
+</html>
